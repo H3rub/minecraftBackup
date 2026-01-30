@@ -1,34 +1,74 @@
-[17:19:32] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25+37-LTS-3491; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[17:19:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) for Minecraft 1.21.11
-[17:19:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:19:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[17:19:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:19:42] [ServerMain/INFO]: Loaded 1470 recipes
-[17:19:42] [ServerMain/INFO]: Loaded 1584 advancements
-[17:19:42] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:19:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 559,9ms
-[17:19:43] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:19:43] [Server thread/INFO]: Loading properties
-[17:19:43] [Server thread/INFO]: This server is running Paper version 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[17:19:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:19:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:19:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:19:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[17:19:44] [Server thread/INFO]: Default game type: SURVIVAL
-[17:19:44] [Server thread/INFO]: Generating keypair
-[17:19:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:19:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:19:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:19:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:19:44] [Server thread/INFO]: Preparing level "world"
-[17:19:44] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[17:19:44] [Server thread/INFO]: Prepared spawn area in 1 ms
-[17:19:44] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[17:19:44] [Server thread/INFO]: Prepared spawn area in 1 ms
-[17:19:44] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[17:19:44] [Server thread/INFO]: Prepared spawn area in 0 ms
-[17:19:44] [Server thread/INFO]: Done preparing level "world" (0.320s)
-[17:19:45] [Server thread/INFO]: [spark] Starting background profiler...
-[17:19:45] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[17:19:45] [Server thread/INFO]: Running delayed init tasks
-[17:19:45] [Server thread/INFO]: Done (13.500s)! For help, type "help"
+[17:41:43] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25+37-LTS-3491; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[17:41:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) for Minecraft 1.21.11
+[17:41:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:41:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[17:41:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:41:53] [ServerMain/INFO]: Loaded 1470 recipes
+[17:41:53] [ServerMain/INFO]: Loaded 1584 advancements
+[17:41:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:41:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 401,4ms
+[17:41:54] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[17:41:54] [Server thread/INFO]: Loading properties
+[17:41:54] [Server thread/INFO]: This server is running Paper version 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[17:41:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:41:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:41:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:41:54] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[17:41:55] [Server thread/INFO]: Default game type: SURVIVAL
+[17:41:55] [Server thread/INFO]: Generating keypair
+[17:41:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:41:55] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:41:55] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:41:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:41:55] [Server thread/INFO]: Preparing level "world"
+[17:41:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[17:41:55] [Server thread/INFO]: Preparing spawn area: 100%
+[17:41:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:41:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[17:41:55] [Server thread/INFO]: Prepared spawn area in 0 ms
+[17:41:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[17:41:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:41:55] [Server thread/INFO]: Done preparing level "world" (0.316s)
+[17:41:55] [Server thread/INFO]: [spark] Starting background profiler...
+[17:41:55] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:41:55] [Server thread/INFO]: Running delayed init tasks
+[17:41:55] [Server thread/INFO]: Done (13.556s)! For help, type "help"
+[17:53:06] [User Authenticator #0/INFO]: UUID of player Herupa_ is 4f4f3be7-ee56-4df1-b56f-a1f9d8f7fd68
+[17:53:08] [Server thread/INFO]: Herupa_ joined the game
+[17:53:08] [Server thread/INFO]: Herupa_[/127.0.0.1:61205] logged in with entity id 98 at ([world]24.6247485698499, 76.0, -34.908824533932595)
+[17:53:08] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ccbd1a9e-7044-4a64-8b22-f85e45da878e, mapped to Bat['Bat'/77, uuid='ccbd1a9e-7044-4a64-8b22-f85e45da878e', l='ServerLevel[world]', x=79.74, y=-25.96, z=-25.43, cpos=[4, -2], tl=0, v=true], can't add Bat['Bat'/114, uuid='ccbd1a9e-7044-4a64-8b22-f85e45da878e', l='ServerLevel[world]', x=82.46, y=-28.12, z=-23.38, cpos=[5, -2], tl=0, v=false]
+[17:53:11] [Server thread/INFO]: Herupa_ lost connection: Disconnected
+[17:53:11] [Server thread/INFO]: Herupa_ left the game
+[17:53:25] [Server thread/INFO]: Stopping the server
+[17:53:26] [Server thread/INFO]: Stopping server
+[17:53:26] [Server thread/INFO]: Saving players
+[17:53:26] [Server thread/INFO]: Saving worlds
+[17:53:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0,01s
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:53:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:53:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:53:26] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:53:26] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[17:53:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:53:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
