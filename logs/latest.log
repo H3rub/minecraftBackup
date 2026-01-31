@@ -1,181 +1,174 @@
-[13:14:26] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25+37-LTS-3491; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[13:14:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) for Minecraft 1.21.11
-[13:14:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:14:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\BetterStructures.jar'...
-[13:14:27] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\FreeMinecraftModels.jar'...
-[13:14:27] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\ResurrectionChest.jar'...
-[13:14:27] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\ResurrectionChest.jar' in 650ms.
-[13:14:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\FreeMinecraftModels.jar' in 1050ms.
-[13:14:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\BetterStructures.jar' in 1470ms.
-[13:14:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[13:14:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - BetterStructures (2.1.1), EliteMobs (9.6.3), FreeMinecraftModels (2.3.17), LibsDisguises (11.0.14), ResourcePackManager (1.7.2), ResurrectionChest (2.0.2), packetevents (2.11.2)
-[13:14:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[13:14:32] [ServerMain/INFO]: Loaded 1470 recipes
-[13:14:32] [ServerMain/INFO]: Loaded 1584 advancements
-[13:14:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[13:14:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 209,2ms
-[13:14:32] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[13:14:32] [Server thread/INFO]: Loading properties
-[13:14:32] [Server thread/INFO]: This server is running Paper version 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[13:14:32] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:14:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:14:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:14:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[13:14:33] [Server thread/INFO]: Default game type: SURVIVAL
-[13:14:33] [Server thread/INFO]: Generating keypair
-[13:14:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:14:33] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:14:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:14:33] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\.paper-remapped\BetterStructures.jar' in 'plugins\.paper-remapped'
-org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'BetterStructures'.
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.11.jar:1.21.11-100-4873e3f]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.11.jar:1.21.11-100-4873e3f]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.11.jar:1.21.11-100-4873e3f]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:555) ~[paper-1.21.11.jar:1.21.11-100-4873e3f]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:320) ~[paper-1.21.11.jar:1.21.11-100-4873e3f]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258) ~[paper-1.21.11.jar:1.21.11-100-4873e3f]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-100-4873e3f]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[13:14:33] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.2
-[13:14:34] [Server thread/INFO]: [FreeMinecraftModels] Loading server plugin FreeMinecraftModels v2.3.17
-[13:14:34] [Server thread/INFO]: [FreeMinecraftModels] MagmaCore v1.13-SNAPSHOT initialized!
-[13:14:34] [Server thread/INFO]: [FreeMinecraftModels] Registered /logify command
-[13:14:34] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v11.0.14
-[13:14:35] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.6.3
-[13:14:35] [Server thread/INFO]: [EliteMobs] MagmaCore v1.13-SNAPSHOT initialized!
-[13:14:35] [Server thread/INFO]: [EliteMobs] /logify is already registered, skipping.
-[13:14:35] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[13:14:35] [Server thread/INFO]: [ResurrectionChest] Loading server plugin ResurrectionChest v2.0.2
-[13:14:35] [Server thread/INFO]: [ResurrectionChest] MagmaCore v1.13-SNAPSHOT initialized!
-[13:14:35] [Server thread/INFO]: [ResurrectionChest] /logify is already registered, skipping.
-[13:14:35] [Server thread/INFO]: [ResourcePackManager] Loading server plugin ResourcePackManager v1.7.2
-[13:14:35] [Server thread/INFO]: [ResourcePackManager] MagmaCore v1.13-SNAPSHOT initialized!
-[13:14:35] [Server thread/INFO]: [ResourcePackManager] /logify is already registered, skipping.
-[13:14:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:14:35] [Server thread/INFO]: [FreeMinecraftModels] Enabling FreeMinecraftModels v2.3.17
-[13:14:35] [Server thread/INFO]:  _______ __                               ___ __   _______           __         __        
-[13:14:35] [Server thread/INFO]: |   |   |__|.-----.-----.----.----.---.-.'  _|  |_|   |   |.-----.--|  |.-----.|  |.-----.
-[13:14:35] [Server thread/INFO]: |       |  ||     |  -__|  __|   _|  _  |   _|   _|       ||  _  |  _  ||  -__||  ||__ --|
-[13:14:35] [Server thread/INFO]: |__|_|__|__||__|__|_____|____|__| |___._|__| |____|__|_|__||_____|_____||_____||__||_____|
-[13:14:35] [Server thread/INFO]: Version 2.3.17
-[13:14:35] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: blitzcrank.png
-[13:14:35] [Server thread/INFO]: [FreeMinecraftModels] Supported server version detected: v1_21_R7
-[13:14:35] [Server thread/INFO]: [com.magmaguy.org.reflections.Reflections] Reflections took 35 ms to scan 116 urls, producing 0 keys and 0 values
-[13:14:35] [Server thread/INFO]: Preparing level "world"
-[13:14:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[13:14:35] [Server thread/INFO]: Preparing spawn area: 100%
-[13:14:35] [Server thread/INFO]: Prepared spawn area in 2 ms
-[13:14:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[13:14:35] [Server thread/INFO]: Prepared spawn area in 1 ms
-[13:14:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[13:14:35] [Server thread/INFO]: Prepared spawn area in 1 ms
-[13:14:35] [Server thread/INFO]: Done preparing level "world" (0.283s)
-[13:14:35] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.2
-[13:14:35] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[13:14:35] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v11.0.14
-[13:14:35] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-11.0.14-Free.jar
-[13:14:35] [Server thread/INFO]: [LibsDisguises] Discovered nms version (LD: v1_21_R7) (MC: 1.21.11)
-[13:14:35] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1729
-[13:14:35] [Server thread/INFO]: [LibsDisguises] Build Date: 27/12/2025 00:48
-[13:14:35] [Server thread/INFO]: [LibsDisguises] Build Hash: c93e045b~1
-[13:14:35] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[13:14:35] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[13:14:35] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
-[13:14:35] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.2)
-[13:14:36] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_9/20...
-[13:14:36] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_9/20 in 202.8338ms
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_guide_1
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_back_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_guild_attendant
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_woodleague_master
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_enchanter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_quest_giver
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_barkeep
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_unbinder
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_bone_monastery_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_sewers_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_story_dungeons_quest_npc
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_frost_queen_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_world_binder_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise em_the_hallowed_haunt_alaric
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_climb_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_craftenmines_laboratory_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_special_blacksmith
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_blacksmith
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_repairman
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_combat_instructor
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_quarry_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_palace_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_mines_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_deep_mines_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_bridge_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_city_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_cave_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_nether_wastes_teleporter
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Loaded 28 custom disguises
-[13:14:37] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[13:14:37] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.6.3
-[13:14:37] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[13:14:37] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[13:14:37] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[13:14:37] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[13:14:37] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[13:14:37] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[13:14:37] [Server thread/INFO]: By MagmaGuy - v. 9.6.3
-[13:14:37] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R7
-[13:14:37] [Server thread/INFO]: [EliteMobs] Language set to English - using plugin defaults
-[13:14:37] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 31 ms to scan 1 urls, producing 1 keys and 60 values
-[13:14:37] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 16 values
-[13:14:43] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 71 values
-[13:14:43] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 18 ms to scan 1 urls, producing 10 keys and 220 values
-[13:14:43] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 1 ms to scan 1 urls, producing 1 keys and 15 values
-[13:14:43] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
-[13:14:43] [Server thread/INFO]: [EliteMobs] Opened database successfully
-[13:14:43] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 116 values
-[13:14:45] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 74 values
-[13:14:45] [Server thread/INFO]: [EliteMobs] Loading world em_fireworks !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Creating world em_fireworks !
-[13:14:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_fireworks'...
-[13:14:45] [Server thread/INFO]: Preparing spawn area: 100%
-[13:14:45] [Server thread/INFO]: Prepared spawn area in 1 ms
-[13:14:45] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_fireworks !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Loading world em_shadow_of_the_binder_of_worlds !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Creating world em_shadow_of_the_binder_of_worlds !
-[13:14:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_shadow_of_the_binder_of_worlds'...
-[13:14:45] [Server thread/INFO]: Prepared spawn area in 1 ms
-[13:14:45] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_shadow_of_the_binder_of_worlds !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Loading world em_hallosseum !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Creating world em_hallosseum !
-[13:14:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_hallosseum'...
-[13:14:45] [Server thread/INFO]: Prepared spawn area in 0 ms
-[13:14:45] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_hallosseum !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Loading world em_north_pole !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Creating world em_north_pole !
-[13:14:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_north_pole'...
-[13:14:45] [Server thread/INFO]: Prepared spawn area in 0 ms
-[13:14:45] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_north_pole !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Loading world em_adventurers_guild !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Creating world em_adventurers_guild !
-[13:14:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_adventurers_guild'...
-[13:14:45] [Server thread/INFO]: Preparing spawn area: 100%
-[13:14:45] [Server thread/INFO]: Prepared spawn area in 1 ms
-[13:14:45] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_adventurers_guild !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Loading world em_knight_castle !
-[13:14:45] [Server thread/INFO]: [EliteMobs] Creating world em_knight_castle !
-[13:14:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_knight_castle'...
-[13:14:45] [Server thread/INFO]: Preparing spawn area: 100%
-[13:14:45] [Server thread/INFO]: Prepared spawn area in 2 ms
-[13:14:45] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_knight_castle !
-[13:14:45] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 134 values
-[13:14:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[13:14:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 34 values
-[13:14:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 24 values
-[13:14:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[13:14:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
-[13:14:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
-[13:14:46] [Server thread/INFO]: [ResurrectionChest] Enabling ResurrectionChest v2.0.2
-[13:14:46] [Server thread/INFO]: 
+[13:16:52] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25+37-LTS-3491; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[13:16:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) for Minecraft 1.21.11
+[13:16:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:16:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[13:16:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - BetterStructures (2.1.1), EliteMobs (9.6.3), FreeMinecraftModels (2.3.17), LibsDisguises (11.0.14), ResourcePackManager (1.7.2), ResurrectionChest (2.0.2), WorldEdit (7.4.0+7381-3decaf0), packetevents (2.11.2)
+[13:16:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:16:56] [ServerMain/INFO]: Loaded 1470 recipes
+[13:16:56] [ServerMain/INFO]: Loaded 1584 advancements
+[13:16:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:16:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 206,4ms
+[13:16:57] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[13:16:57] [Server thread/INFO]: Loading properties
+[13:16:57] [Server thread/INFO]: This server is running Paper version 1.21.11-100-main@4873e3f (2026-01-29T11:02:49Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[13:16:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:16:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:16:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:16:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[13:16:58] [Server thread/INFO]: Default game type: SURVIVAL
+[13:16:58] [Server thread/INFO]: Generating keypair
+[13:16:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:16:58] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:16:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:16:58] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.2
+[13:16:59] [Server thread/INFO]: [FreeMinecraftModels] Loading server plugin FreeMinecraftModels v2.3.17
+[13:16:59] [Server thread/INFO]: [FreeMinecraftModels] MagmaCore v1.13-SNAPSHOT initialized!
+[13:16:59] [Server thread/INFO]: [FreeMinecraftModels] Registered /logify command
+[13:16:59] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v11.0.14
+[13:16:59] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.6.3
+[13:16:59] [Server thread/INFO]: [EliteMobs] MagmaCore v1.13-SNAPSHOT initialized!
+[13:16:59] [Server thread/INFO]: [EliteMobs] /logify is already registered, skipping.
+[13:16:59] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[13:16:59] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
+[13:17:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@108c81b7]
+[13:17:00] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[13:17:00] [Server thread/INFO]: [ResurrectionChest] Loading server plugin ResurrectionChest v2.0.2
+[13:17:00] [Server thread/INFO]: [ResurrectionChest] MagmaCore v1.13-SNAPSHOT initialized!
+[13:17:00] [Server thread/INFO]: [ResurrectionChest] /logify is already registered, skipping.
+[13:17:00] [Server thread/INFO]: [ResourcePackManager] Loading server plugin ResourcePackManager v1.7.2
+[13:17:00] [Server thread/INFO]: [ResourcePackManager] MagmaCore v1.13-SNAPSHOT initialized!
+[13:17:00] [Server thread/INFO]: [ResourcePackManager] /logify is already registered, skipping.
+[13:17:00] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v2.1.1
+[13:17:00] [Server thread/INFO]: [BetterStructures] MagmaCore v1.13-SNAPSHOT initialized!
+[13:17:00] [Server thread/INFO]: [BetterStructures] /logify is already registered, skipping.
+[13:17:00] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[13:17:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:17:00] [Server thread/INFO]: [FreeMinecraftModels] Enabling FreeMinecraftModels v2.3.17
+[13:17:00] [Server thread/INFO]:  _______ __                               ___ __   _______           __         __        
+[13:17:00] [Server thread/INFO]: |   |   |__|.-----.-----.----.----.---.-.'  _|  |_|   |   |.-----.--|  |.-----.|  |.-----.
+[13:17:00] [Server thread/INFO]: |       |  ||     |  -__|  __|   _|  _  |   _|   _|       ||  _  |  _  ||  -__||  ||__ --|
+[13:17:00] [Server thread/INFO]: |__|_|__|__||__|__|_____|____|__| |___._|__| |____|__|_|__||_____|_____||_____||__||_____|
+[13:17:00] [Server thread/INFO]: Version 2.3.17
+[13:17:00] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: blitzcrank.png
+[13:17:00] [Server thread/INFO]: [FreeMinecraftModels] Supported server version detected: v1_21_R7
+[13:17:00] [Server thread/INFO]: [com.magmaguy.org.reflections.Reflections] Reflections took 39 ms to scan 116 urls, producing 0 keys and 0 values
+[13:17:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
+[13:17:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:17:00] [Server thread/INFO]: WEPIF: Updated config file
+[13:17:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:17:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
+[13:17:00] [Server thread/INFO]: Preparing level "world"
+[13:17:01] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[13:17:01] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:17:01] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[13:17:01] [Server thread/INFO]: Prepared spawn area in 0 ms
+[13:17:01] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[13:17:01] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:17:01] [Server thread/INFO]: Done preparing level "world" (0.433s)
+[13:17:01] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.2
+[13:17:01] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[13:17:01] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v11.0.14
+[13:17:01] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-11.0.14-Free.jar
+[13:17:01] [Server thread/INFO]: [LibsDisguises] Discovered nms version (LD: v1_21_R7) (MC: 1.21.11)
+[13:17:01] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1729
+[13:17:01] [Server thread/INFO]: [LibsDisguises] Build Date: 27/12/2025 00:48
+[13:17:01] [Server thread/INFO]: [LibsDisguises] Build Hash: c93e045b~1
+[13:17:01] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[13:17:01] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[13:17:01] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[13:17:01] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.2)
+[13:17:01] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_9/20...
+[13:17:01] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_9/20 in 174.0726ms
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_guide_1
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_back_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_guild_attendant
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_woodleague_master
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_enchanter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_quest_giver
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_barkeep
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_unbinder
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_bone_monastery_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_sewers_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_story_dungeons_quest_npc
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_frost_queen_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_world_binder_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise em_the_hallowed_haunt_alaric
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_climb_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_craftenmines_laboratory_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_special_blacksmith
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_blacksmith
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_repairman
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise ag_combat_instructor
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_quarry_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_palace_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_mines_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_deep_mines_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_bridge_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_city_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_cave_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise elitemobs_the_nether_wastes_teleporter
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Loaded 28 custom disguises
+[13:17:02] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[13:17:02] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.6.3
+[13:17:02] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[13:17:02] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[13:17:02] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[13:17:02] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[13:17:02] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[13:17:02] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[13:17:02] [Server thread/INFO]: By MagmaGuy - v. 9.6.3
+[13:17:02] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R7
+[13:17:02] [Server thread/INFO]: [EliteMobs] Language set to English - using plugin defaults
+[13:17:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 30 ms to scan 1 urls, producing 1 keys and 60 values
+[13:17:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 16 values
+[13:17:08] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 71 values
+[13:17:08] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 18 ms to scan 1 urls, producing 10 keys and 220 values
+[13:17:08] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 15 values
+[13:17:08] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
+[13:17:08] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[13:17:08] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 116 values
+[13:17:10] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 74 values
+[13:17:10] [Server thread/INFO]: [EliteMobs] Loading world em_fireworks !
+[13:17:10] [Server thread/INFO]: [EliteMobs] Creating world em_fireworks !
+[13:17:10] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_fireworks'...
+[13:17:10] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:17:10] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_fireworks !
+[13:17:10] [Server thread/INFO]: [EliteMobs] Loading world em_shadow_of_the_binder_of_worlds !
+[13:17:10] [Server thread/INFO]: [EliteMobs] Creating world em_shadow_of_the_binder_of_worlds !
+[13:17:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_shadow_of_the_binder_of_worlds'...
+[13:17:11] [Server thread/INFO]: Prepared spawn area in 0 ms
+[13:17:11] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_shadow_of_the_binder_of_worlds !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Loading world em_hallosseum !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Creating world em_hallosseum !
+[13:17:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_hallosseum'...
+[13:17:11] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:17:11] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_hallosseum !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Loading world em_north_pole !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Creating world em_north_pole !
+[13:17:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_north_pole'...
+[13:17:11] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:17:11] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_north_pole !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Loading world em_adventurers_guild !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Creating world em_adventurers_guild !
+[13:17:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_adventurers_guild'...
+[13:17:11] [Server thread/INFO]: Preparing spawn area: 100%
+[13:17:11] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:17:11] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_adventurers_guild !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Loading world em_knight_castle !
+[13:17:11] [Server thread/INFO]: [EliteMobs] Creating world em_knight_castle !
+[13:17:11] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:em_knight_castle'...
+[13:17:11] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:17:11] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_knight_castle !
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 134 values
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 34 values
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 24 values
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[13:17:11] [Server thread/INFO]: [ResurrectionChest] Enabling ResurrectionChest v2.0.2
+[13:17:11] [Server thread/INFO]: 
                                                                        
  _____                             _   _         _____ _           _   
 | __  |___ ___ _ _ ___ ___ ___ ___| |_|_|___ ___|     | |_ ___ ___| |_ 
@@ -183,145 +176,468 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 |__|__|___|___|___|_| |_| |___|___|_| |_|___|_|_|_____|_|_|___|___|_|  
                                                                        
 
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Enabling ResourcePackManager v1.7.2
-[13:14:46] [Server thread/INFO]: 
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Enabling ResourcePackManager v1.7.2
+[13:17:11] [Server thread/INFO]: 
   ___  ___ ___ __  __                             
  | _ \/ __| _ \  \/  |__ _ _ _  __ _ __ _ ___ _ _ 
  |   /\__ \  _/ |\/| / _` | ' \/ _` / _` / -_) '_|
  |_|_\|___/_| |_|  |_\__,_|_||_\__,_\__, \___|_|  
                                     |___/         
-[13:14:46] [Server thread/INFO]: ResourcePackManager v.1.7.2
-[13:14:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 37 ms to scan 1 urls, producing 1 keys and 15 values
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Processing cluster for EliteMobs with 2 resource packs
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Skipping non-directory in cluster: .rsp_checksum
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Copied assets from em_rsp_defaults to mixer folder
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Finished processing cluster for EliteMobs
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Cloning resource pack from plugins\FreeMinecraftModels\output\FreeMinecraftModels.zip
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Cloning resource pack from plugins\ResourcePackManager\blueprint\blueprint.zip
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Creating blueprint folder
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Copying image
-[13:14:46] [Server thread/INFO]: [ResourcePackManager] Copying mcmeta
-[13:14:46] [Server thread/INFO]: [spark] Starting background profiler...
-[13:14:46] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:14:46] [Server thread/INFO]: Running delayed init tasks
-[13:14:46] [Server thread/INFO]: Sparks fill the sky!
-[13:14:46] [Server thread/INFO]: Don't lose your head now, the headless horseman walks the earth once again!
-[13:14:46] [Server thread/INFO]: Santa Claus is getting ready for Christmas!!
-[13:14:46] [Server thread/INFO]: The shadow of binder of worlds approaches!
-[13:14:46] [Craft Scheduler Thread - 0 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.6.3
-[13:14:46] [Craft Scheduler Thread - 0 - EliteMobs/INFO]: [EliteMobs] Your version is 9.6.3
-[13:14:46] [Craft Scheduler Thread - 0 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
-[13:14:46] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Latest public release is 1.7.2
-[13:14:46] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Your version is 1.7.2
-[13:14:46] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] You are running the latest version!
-[13:14:47] [Craft Scheduler Thread - 3 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Latest public release is 2.3.17
-[13:14:47] [Craft Scheduler Thread - 3 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Your version is 2.3.17
-[13:14:47] [Craft Scheduler Thread - 3 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] You are running the latest version!
-[13:14:47] [Craft Scheduler Thread - 5 - ResurrectionChest/INFO]: [ResurrectionChest] Latest public release is 2.0.2
-[13:14:47] [Craft Scheduler Thread - 5 - ResurrectionChest/INFO]: [ResurrectionChest] Your version is 2.0.2
-[13:14:47] [Craft Scheduler Thread - 5 - ResurrectionChest/INFO]: [ResurrectionChest] You are running the latest version!
-[13:14:47] [Server thread/INFO]: Done (22.200s)! For help, type "help"
-[13:14:50] [Craft Scheduler Thread - 3 - ResourcePackManager/INFO]: [ResourcePackManager] Resource pack for FreeMinecraftModels has not changed for 3 seconds, considering it stable.
-[13:14:50] [Craft Scheduler Thread - 3 - ResourcePackManager/INFO]: [ResourcePackManager] Resource pack for ResourcePackManager has not changed for 3 seconds, considering it stable.
-[13:14:51] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] All resource packs are stable. Resource pack will be sent in 1 second.
-[13:14:52] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Sending resource pack now.
-[13:14:52] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Starting resource pack mixing...
-[13:14:53] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Resource pack mixing complete.
-[13:14:53] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Starting autohost!
-[13:14:53] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Successfully saved UUID: 672fc3bb-5814-420c-b5fe-ac36dc245ba3
-[13:14:53] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Server initialized successfully: Server initialized successfully
-[13:14:54] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Remote server already has this resource pack! Response: false
-[13:14:54] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Uploading resource!
-[13:14:55] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Uploaded resource pack for automatic hosting! url: https://magmaguy.com/rsp/672fc3bb-5814-420c-b5fe-ac36dc245ba3
-[13:16:37] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[13:16:37] [Server thread/INFO]: Stopping server
-[13:16:37] [Server thread/INFO]: [ResourcePackManager] Disabling ResourcePackManager v1.7.2
-[13:16:37] [Server thread/INFO]: [ResourcePackManager] Disabling ResourcePackManager
-[13:16:37] [Server thread/INFO]: [ResurrectionChest] Disabling ResurrectionChest v2.0.2
-[13:16:37] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.6.3
-[13:16:37] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
-[13:16:37] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
-[13:16:37] [Server thread/INFO]: [EliteMobs] All done! Good night.
-[13:16:37] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v11.0.14
-[13:16:37] [Server thread/INFO]: [FreeMinecraftModels] Disabling FreeMinecraftModels v2.3.17
-[13:16:37] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.2
-[13:16:37] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[13:16:37] [Server thread/INFO]: Saving players
-[13:16:37] [Server thread/INFO]: Saving worlds
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_fireworks]'/minecraft:em_fireworks
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_fireworks'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_fireworks'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_fireworks'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_fireworks' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_fireworks'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_fireworks'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_shadow_of_the_binder_of_worlds]'/minecraft:em_shadow_of_the_binder_of_worlds
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_shadow_of_the_binder_of_worlds'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_shadow_of_the_binder_of_worlds'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_shadow_of_the_binder_of_worlds'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_shadow_of_the_binder_of_worlds' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_shadow_of_the_binder_of_worlds'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_shadow_of_the_binder_of_worlds'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_hallosseum]'/minecraft:em_hallosseum
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_hallosseum'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_hallosseum'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_hallosseum'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_hallosseum' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_hallosseum'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_hallosseum'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_north_pole]'/minecraft:em_north_pole
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_north_pole'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_north_pole'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_north_pole'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_north_pole' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_north_pole'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_north_pole'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_adventurers_guild]'/minecraft:em_adventurers_guild
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_adventurers_guild'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_adventurers_guild'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_adventurers_guild'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_adventurers_guild' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_adventurers_guild'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_adventurers_guild'
-[13:16:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_knight_castle]'/minecraft:em_knight_castle
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_knight_castle'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_knight_castle'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_knight_castle'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_knight_castle' in 0,00s
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_knight_castle'
-[13:16:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_knight_castle'
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_fireworks): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_north_pole): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_adventurers_guild): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_knight_castle): All chunks are saved
-[13:16:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:16:37] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[13:16:37] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[13:16:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[13:16:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[13:17:11] [Server thread/INFO]: ResourcePackManager v.1.7.2
+[13:17:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 29 ms to scan 1 urls, producing 1 keys and 15 values
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Processing cluster for EliteMobs with 2 resource packs
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Skipping non-directory in cluster: .rsp_checksum
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Copied assets from em_rsp_defaults to mixer folder
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Finished processing cluster for EliteMobs
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Clearing outdated resource pack in plugins\ResourcePackManager\mixer\FreeMinecraftModels_resource_pack.zip
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Cloning resource pack from plugins\FreeMinecraftModels\output\FreeMinecraftModels.zip
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Creating blueprint folder
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Copying image
+[13:17:11] [Server thread/INFO]: [ResourcePackManager] Copying mcmeta
+[13:17:12] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v2.1.1
+[13:17:12] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[13:17:12] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[13:17:12] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[13:17:12] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[13:17:12] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[13:17:12] [Server thread/INFO]: [BetterStructures] Initialized version 2.1.1!
+[13:17:12] [Server thread/INFO]: [BetterStructures] Supported server version detected: v1_21_R7
+[13:17:12] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 21 ms to scan 1 urls, producing 1 keys and 5 values
+[13:17:12] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 29 values
+[13:17:12] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[13:17:12] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 116 urls, producing 0 keys and 0 values
+[13:17:12] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 1 ms to scan 1 urls, producing 1 keys and 10 values
+[13:17:12] [Server thread/INFO]: [spark] Starting background profiler...
+[13:17:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:17:12] [Server thread/INFO]: Running delayed init tasks
+[13:17:12] [Server thread/INFO]: Sparks fill the sky!
+[13:17:12] [Server thread/INFO]: Don't lose your head now, the headless horseman walks the earth once again!
+[13:17:12] [Server thread/INFO]: Santa Claus is getting ready for Christmas!!
+[13:17:12] [Server thread/INFO]: The shadow of binder of worlds approaches!
+[13:17:12] [Craft Scheduler Thread - 7 - BetterStructures/INFO]: [BetterStructures] Latest public release is 2.1.1
+[13:17:12] [Craft Scheduler Thread - 7 - BetterStructures/INFO]: [BetterStructures] Your version is 2.1.1
+[13:17:12] [Craft Scheduler Thread - 5 - ResurrectionChest/INFO]: [ResurrectionChest] Latest public release is 2.0.2
+[13:17:12] [Craft Scheduler Thread - 5 - ResurrectionChest/INFO]: [ResurrectionChest] Your version is 2.0.2
+[13:17:12] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Latest public release is 1.7.2
+[13:17:12] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] Your version is 1.7.2
+[13:17:12] [Craft Scheduler Thread - 2 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Latest public release is 2.3.17
+[13:17:12] [Craft Scheduler Thread - 2 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Your version is 2.3.17
+[13:17:12] [Craft Scheduler Thread - 0 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.6.3
+[13:17:12] [Craft Scheduler Thread - 0 - EliteMobs/INFO]: [EliteMobs] Your version is 9.6.3
+[13:17:12] [Craft Scheduler Thread - 0 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
+[13:17:12] [Craft Scheduler Thread - 7 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[13:17:12] [Craft Scheduler Thread - 5 - ResurrectionChest/INFO]: [ResurrectionChest] You are running the latest version!
+[13:17:12] [Craft Scheduler Thread - 6 - ResourcePackManager/INFO]: [ResourcePackManager] You are running the latest version!
+[13:17:12] [Craft Scheduler Thread - 2 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] You are running the latest version!
+[13:17:13] [Server thread/INFO]: Done (21.861s)! For help, type "help"
+[13:17:16] [Craft Scheduler Thread - 2 - ResourcePackManager/INFO]: [ResourcePackManager] Resource pack for FreeMinecraftModels has not changed for 3 seconds, considering it stable.
+[13:17:17] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] All resource packs are stable. Resource pack will be sent in 1 second.
+[13:17:18] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Sending resource pack now.
+[13:17:18] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Starting resource pack mixing...
+[13:17:18] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Resource pack mixing complete.
+[13:17:18] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Starting autohost!
+[13:17:19] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Successfully saved UUID: 672fc3bb-5814-420c-b5fe-ac36dc245ba3
+[13:17:19] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Server initialized successfully: Server initialized successfully
+[13:17:19] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Remote server already has this resource pack! Response: false
+[13:17:19] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Uploading resource!
+[13:17:21] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Uploaded resource pack for automatic hosting! url: https://magmaguy.com/rsp/672fc3bb-5814-420c-b5fe-ac36dc245ba3
+[13:17:26] [User Authenticator #0/INFO]: UUID of player Herupa_ is 4f4f3be7-ee56-4df1-b56f-a1f9d8f7fd68
+[13:17:26] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [EliteMobs]
+[13:17:27] [Server thread/INFO]: [ResourcePackManager] Sending resource pack to Herupa_. rspUUID is null: false. done: true. firstUpload: false.
+[13:17:27] [Server thread/INFO]: [ResourcePackManager] Sending resource pack to Herupa_
+[13:17:27] [Server thread/INFO]: Herupa_ joined the game
+[13:17:27] [Server thread/INFO]: Herupa_[/127.0.0.1:49428] logged in with entity id 165 at ([em_adventurers_guild]241.07478150979728, 92.0, 239.5571875320217)
+[13:17:28] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] User 4f4f3be7-ee56-4df1-b56f-a1f9d8f7fd68 data successfully read!
+[13:18:30] [Server thread/INFO]: Herupa_ issued server command: /betterstructures initialize
+[13:18:46] [Server thread/INFO]: Herupa_ issued server command: /bs reload
+[13:18:46] [Server thread/INFO]: [BetterStructures] Shutdown!
+[13:18:46] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[13:18:46] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[13:18:46] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[13:18:46] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[13:18:46] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[13:18:46] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[13:18:46] [Server thread/INFO]: [BetterStructures] Initialized version 2.1.1!
+[13:18:46] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_caves_and_lost_civilisations_free_pack_v2\content_packages
+[13:18:46] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_caves_and_lost_civilisations_free_pack_v2\pack.meta
+[13:18:46] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_caves_and_lost_civilisations_free_pack_v2\schematics
+[13:18:46] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_caves_and_lost_civilisations_free_pack_v2
+[13:18:46] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_caves_and_lost_civilisations_free_pack_v2.zip
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_default_pack_v4\content_packages
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_default_pack_v4\pack.meta
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_default_pack_v4\schematics
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_default_pack_v4
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_default_pack_v4.zip
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_exploration_pack_v6\content_packages
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_exploration_pack_v6\pack.meta
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_exploration_pack_v6\schematics
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_exploration_pack_v6
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_exploration_pack_v6.zip
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5\content_packages
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5\elitemobs\custombosses
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5\elitemobs\customitems
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5\elitemobs\powers
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5\elitemobs
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5\pack.meta
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5\schematics
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5
+[13:18:47] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_free_elite_shrines_pack_v5.zip
+[13:18:48] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_modules_dungeons_free_pack_v2\content_packages
+[13:18:48] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_modules_dungeons_free_pack_v2\modules
+[13:18:48] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_modules_dungeons_free_pack_v2\module_generators
+[13:18:48] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_modules_dungeons_free_pack_v2\pack.meta
+[13:18:48] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_modules_dungeons_free_pack_v2
+[13:18:48] [Server thread/INFO]: [BetterStructures] Cleaning up C:\Users\Herupa\Desktop\servers\friends\plugins\BetterStructures\imports\betterstructures_modules_dungeons_free_pack_v2.zip
+[13:18:48] [Server thread/INFO]: [BetterStructures] Supported server version detected: v1_21_R7
+[13:18:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 1 ms to scan 1 urls, producing 1 keys and 5 values
+[13:18:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 29 values
+[13:18:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[13:18:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 31 ms to scan 116 urls, producing 0 keys and 0 values
+[13:18:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-100-4873e3f (MC: 1.21.11) ---
+[13:18:56] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[13:18:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:18:56] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[13:18:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:18:56] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:18:56] [Paper Watchdog Thread/ERROR]: 	PID: 72 | Suspended: false | Native: false | State: RUNNABLE
+[13:18:56] [Paper Watchdog Thread/ERROR]: 	Stack:
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:60)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.IOUtil.read(IOUtil.java:307)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.IOUtil.read(IOUtil.java:284)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.FileChannelImpl.implRead(FileChannelImpl.java:251)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:231)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:90)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:119)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.io.InputStream.read(InputStream.java:222)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:98)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.zip.CheckedInputStream.read(CheckedInputStream.java:59)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:294)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:220)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:82)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:114)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.BuiltInClipboardFormat$1.isFormat(BuiltInClipboardFormat.java:76)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat.isFormat(ClipboardFormat.java:87)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.ClipboardFormats.findByPath(ClipboardFormats.java:111)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.ClipboardFormats.findByFile(ClipboardFormats.java:97)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.worldedit.Schematic.load(Schematic.java:55)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.config.schematics.SchematicConfig.scanDirectoryForSchematics(SchematicConfig.java:64)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.config.schematics.SchematicConfig.scanDirectoryForSchematics(SchematicConfig.java:70)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.config.schematics.SchematicConfig.<init>(SchematicConfig.java:30)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.BetterStructures.onEnable(BetterStructures.java:64)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.commands.ReloadCommand.execute(ReloadCommand.java:22)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.magmacore.command.CommandManager.onCommand(CommandManager.java:98)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00000000a2ea8f60.execute(Unknown Source)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:374)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:362)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00000000a2ea6058.run(Unknown Source)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1530)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1510)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000a1e28000.run(Unknown Source)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.lang.Thread.runWith(Thread.java:1487)
+[13:18:56] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.lang.Thread.run(Thread.java:1474)
+[13:18:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:18:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[13:18:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:19:01] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-100-4873e3f (MC: 1.21.11) ---
+[13:19:01] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[13:19:01] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:19:01] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[13:19:01] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:19:01] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:19:01] [Paper Watchdog Thread/ERROR]: 	PID: 72 | Suspended: false | Native: false | State: RUNNABLE
+[13:19:01] [Paper Watchdog Thread/ERROR]: 	Stack:
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.kinds.IdF$Instance.map(IdF.java:37)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda/0x00000000a2ed8c60.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda/0x00000000a2ed8c60.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Pair$Instance.traverse(Pair.java:90)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.profunctors.TraversalP$1.lambda$wander$0(TraversalP.java:50)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.profunctors.TraversalP$1$$Lambda/0x00000000a2ed8ec8.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda/0x00000000a2ed8c60.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda/0x00000000a2ed8c60.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Pair$Instance.traverse(Pair.java:90)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.profunctors.TraversalP$1.lambda$wander$0(TraversalP.java:50)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.profunctors.TraversalP$1$$Lambda/0x00000000a2ed8ec8.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda/0x00000000a2ed8c60.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1.lambda$wander$0(Traversal.java:34)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Traversal$Instance$1$$Lambda/0x00000000a2ed8c60.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.Typed.updateCap(Typed.java:164)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.Typed.updateTyped(Typed.java:126)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.datafix.fixes.NamedEntityFix.lambda$makeRule$0(NamedEntityFix.java:30)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.datafix.fixes.NamedEntityFix$$Lambda/0x00000000a2ecc398.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.DataFix.lambda$checked$3(DataFix.java:98)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.DataFix$$Lambda/0x00000000a2ed4400.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x00000000a2ed41b0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x00000000a2413260.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x00000000a2ee71c0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x00000000a2413260.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x00000000a2ee71c0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x00000000a2413260.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x00000000a2ee71c0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x00000000a2413260.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x00000000a2ee71c0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x00000000a2413260.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x00000000a2ee71c0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x00000000a2413260.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x00000000a2ee71c0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function.lambda$compose$0(Function.java:68)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.util.function.Function$$Lambda/0x00000000a2ccdf30.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x00000000a2ee6f58.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x00000000a2ed41b0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold.lambda$eval$2(Fold.java:91)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold$$Lambda/0x00000000a2ee2c70.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x00000000a2ed41b0.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.capWrite(Type.java:167)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.lambda$readAndWrite$10(Type.java:159)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type$$Lambda/0x00000000a2ed3d10.apply(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.readAndWrite(Type.java:158)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:78)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightDataConverters$WrappedDataFixer.update(PaperweightDataConverters.java:254)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightDataConverters.convert(PaperweightDataConverters.java:309)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightDataConverters.convert(PaperweightDataConverters.java:302)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightDataConverters.convert(PaperweightDataConverters.java:289)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightDataConverters.fixBlockEntity(PaperweightDataConverters.java:130)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightDataConverters.fixUp(PaperweightDataConverters.java:109)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.sponge.VersionedDataFixer.fixUp(VersionedDataFixer.java:45)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.sponge.ReaderUtil.initializeClipboardFromBlocks(ReaderUtil.java:158)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.sponge.SpongeSchematicV1Reader.readVersion1(SpongeSchematicV1Reader.java:133)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.sponge.SpongeSchematicV2Reader.doRead(SpongeSchematicV2Reader.java:75)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.4.0.jar//com.sk89q.worldedit.extent.clipboard.io.sponge.SpongeSchematicV2Reader.read(SpongeSchematicV2Reader.java:63)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.worldedit.Schematic.load(Schematic.java:58)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.config.schematics.SchematicConfig.scanDirectoryForSchematics(SchematicConfig.java:64)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.config.schematics.SchematicConfig.scanDirectoryForSchematics(SchematicConfig.java:70)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.config.schematics.SchematicConfig.<init>(SchematicConfig.java:30)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.BetterStructures.onEnable(BetterStructures.java:64)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.betterstructures.commands.ReloadCommand.execute(ReloadCommand.java:22)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		BetterStructures.jar//com.magmaguy.magmacore.command.CommandManager.onCommand(CommandManager.java:98)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00000000a2ea8f60.execute(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:374)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:362)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00000000a2ea6058.run(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1530)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1510)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000a1e28000.run(Unknown Source)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.lang.Thread.runWith(Thread.java:1487)
+[13:19:01] [Paper Watchdog Thread/ERROR]: 		java.base@25/java.lang.Thread.run(Thread.java:1474)
+[13:19:01] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:19:01] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[13:19:01] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:19:05] [spark-java-sampler-0-2/WARN]: [spark] Timed out waiting for world statistics
+[13:19:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 10 values
+[13:19:06] [Craft Scheduler Thread - 10 - BetterStructures/INFO]: [BetterStructures] Latest public release is 2.1.1
+[13:19:06] [Craft Scheduler Thread - 10 - BetterStructures/INFO]: [BetterStructures] Your version is 2.1.1
+[13:19:06] [Craft Scheduler Thread - 10 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[13:19:11] [Server thread/INFO]: Herupa_ lost connection: Disconnected
+[13:19:11] [Server thread/INFO]: Herupa_ left the game
+[13:19:15] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[13:19:16] [Server thread/INFO]: Stopping server
+[13:19:16] [Server thread/INFO]: [BetterStructures] Disabling BetterStructures v2.1.1
+[13:19:16] [Server thread/INFO]: [BetterStructures] Shutdown!
+[13:19:16] [Server thread/INFO]: [ResourcePackManager] Disabling ResourcePackManager v1.7.2
+[13:19:16] [Server thread/INFO]: [ResourcePackManager] Disabling ResourcePackManager
+[13:19:16] [Server thread/INFO]: [ResurrectionChest] Disabling ResurrectionChest v2.0.2
+[13:19:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0+7381-3decaf0
+[13:19:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:19:16] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.6.3
+[13:19:16] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[13:19:16] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[13:19:16] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[13:19:16] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v11.0.14
+[13:19:16] [Server thread/INFO]: [FreeMinecraftModels] Disabling FreeMinecraftModels v2.3.17
+[13:19:16] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.2
+[13:19:16] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[13:19:16] [Server thread/INFO]: Saving players
+[13:19:16] [Server thread/INFO]: Saving worlds
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_fireworks]'/minecraft:em_fireworks
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_fireworks'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_fireworks'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_fireworks'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_fireworks' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_fireworks'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_fireworks'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_shadow_of_the_binder_of_worlds]'/minecraft:em_shadow_of_the_binder_of_worlds
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_shadow_of_the_binder_of_worlds'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_shadow_of_the_binder_of_worlds'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_shadow_of_the_binder_of_worlds'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_shadow_of_the_binder_of_worlds' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_shadow_of_the_binder_of_worlds'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_shadow_of_the_binder_of_worlds'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_hallosseum]'/minecraft:em_hallosseum
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_hallosseum'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_hallosseum'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_hallosseum'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_hallosseum' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_hallosseum'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_hallosseum'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_north_pole]'/minecraft:em_north_pole
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_north_pole'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_north_pole'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_north_pole'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_north_pole' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_north_pole'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_north_pole'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_adventurers_guild]'/minecraft:em_adventurers_guild
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_adventurers_guild'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_adventurers_guild'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_adventurers_guild'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 725 block chunks, 725 entity chunks, 0 poi chunks in world 'em_adventurers_guild' in 0,22s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_adventurers_guild'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_adventurers_guild'
+[13:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_knight_castle]'/minecraft:em_knight_castle
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_knight_castle'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_knight_castle'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_knight_castle'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_knight_castle' in 0,00s
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'em_knight_castle'
+[13:19:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'em_knight_castle'
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_fireworks): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_north_pole): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_adventurers_guild): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_knight_castle): All chunks are saved
+[13:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:19:16] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:19:16] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:19:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:19:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

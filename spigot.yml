@@ -150,6 +150,8 @@ world-settings:
     simulation-distance: default
     view-distance: default
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.

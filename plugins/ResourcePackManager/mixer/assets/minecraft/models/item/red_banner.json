@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:item/template_banner",
-    "overrides": [
-        { "predicate": {"custom_model_data": 31173}, "model": "elitemobs:ui/boxoutput"}
-    ]
-}
+{"parent":"minecraft:item/template_banner","overrides":[{"predicate":{"custom_model_data":31173},"model":"elitemobs:ui/boxoutput"},{"predicate":{"custom_model_data":31173},"model":"elitemobs:ui/boxoutput"}]}
