@@ -1,1 +1,1 @@
-{"model":{"model":"freeminecraftmodels:em_steamworks_clk_wrx/leftarm","tints":[{"type":"minecraft:custom_model_data","default":16777215,"index":0}],"type":"minecraft:model"}}
+{"model":{"model":"freeminecraftmodels:em_steamworks_clk_wrx/leftarm","tints":[{"index":0,"default":16777215,"type":"minecraft:custom_model_data"}],"type":"minecraft:model"}}
