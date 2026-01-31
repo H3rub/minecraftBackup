@@ -1,0 +1,17 @@
+priorityOrder:
+- ResourcePackManager
+- EliteMobs
+- FreeMinecraftModels
+- ModelEngine
+- Nova
+- ItemsAdder
+- Oraxen
+- BetterHUD
+- ValhallaMMO
+- MMOInventory
+- vane-core
+- RealisticSurvival
+autoHost: true
+forceResourcePack: false
+resourcePackPrompt: Use recommended resource pack?
+resourcePackRerouting: ''
