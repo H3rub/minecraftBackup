@@ -1,0 +1,5 @@
+useDisplayEntitiesWhenPossible: true
+maxModelViewDistance: 60
+maxInteractionAndAttackDistance: 3
+maxInteractionAndAttackDistanceForProps: 6
+sendCustomModelsToBedrockClients: false

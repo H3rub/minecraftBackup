@@ -1,0 +1,7 @@
+Resource Pack Collision Log
+Generated: 2026-01-31T13:14:53.357214800
+================================================
+
+Replaced: C:\Users\Herupa\Desktop\servers\friends\plugins\ResourcePackManager\output\ResourcePackManager_RSP\pack.mcmeta
+Replaced: C:\Users\Herupa\Desktop\servers\friends\plugins\ResourcePackManager\output\ResourcePackManager_RSP\pack.png
+Merged: C:\Users\Herupa\Desktop\servers\friends\plugins\ResourcePackManager\output\ResourcePackManager_RSP\assets\minecraft\atlases\blocks.json
