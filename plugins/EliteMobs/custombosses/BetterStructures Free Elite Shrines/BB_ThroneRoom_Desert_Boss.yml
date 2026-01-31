@@ -1,5 +1,5 @@
 entityType: IRON_GOLEM
-name: "$minibossLevel &6Darklord"
+name: $minibossLevel &6Darklord
 level: dynamic
 healthMultiplier: 3
 damageMultiplier: 2
@@ -23,4 +23,5 @@ removeAfterDeath: true
 uniqueLootList:
 - filename: throneroom_desert_Dark_Blade.yml
   chance: 1
+spawnLocations: []
 # Generated with https://magmaguy.com/webapp/webapp.html !

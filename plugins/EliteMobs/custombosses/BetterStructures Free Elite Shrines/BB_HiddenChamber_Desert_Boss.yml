@@ -1,5 +1,5 @@
 entityType: MAGMA_CUBE
-name: "$minibossLevel &6Firecore"
+name: $minibossLevel &6Firecore
 level: dynamic
 healthMultiplier: 3
 damageMultiplier: 0.1
@@ -36,3 +36,5 @@ eliteScript:
         targetType: SELF
       bValue: false
       duration: 10
+spawnLocations:
+- world,-263.5,-53.0,729.5,0.0,0.0
