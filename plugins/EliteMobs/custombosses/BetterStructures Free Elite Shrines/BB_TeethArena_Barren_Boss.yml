@@ -1,5 +1,5 @@
 entityType: ZOMBIE
-name: "$minibossLevel &2Zombie Chief"
+name: $minibossLevel &2Zombie Chief
 level: dynamic
 healthMultiplier: 4
 damageMultiplier: 2
@@ -22,4 +22,5 @@ removeAfterDeath: true
 uniqueLootList:
 - filename: teetharena_barren_poisonous_blade.yml
   chance: 1
+spawnLocations: []
 # Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,5 +1,5 @@
 entityType: SPIDER
-name: "$minibossLevel &2Weaver"
+name: $minibossLevel &2Weaver
 level: dynamic
 healthMultiplier: 3
 damageMultiplier: 1
@@ -20,4 +20,8 @@ removeAfterDeath: true
 uniqueLootList:
 - filename: hiddenchamber_barren_lightning_rod.yml
   chance: 1
+spawnLocations:
+- world,4014.5,10.0,2543.5,0.0,0.0
+- world,4766.5,43.0,2527.5,0.0,0.0
+- world,4526.5,33.0,2767.5,0.0,0.0
 # Generated with https://magmaguy.com/webapp/webapp.html !
